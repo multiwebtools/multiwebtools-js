@@ -1,14 +1,12 @@
 <template>
-  <h1>Hello from Vercel</h1>
-  This page is:
-  <ul>
-    <li>Rendered to HTML.</li>
-    <li>Interactive. <Counter /></li>
-  </ul>
+  <Hero title="Online Web Tools & Utilities"
+    description="Helping you automate common tasks. Maximize your productivity, minimize your effort."></Hero>
+  <Tools></Tools>
 </template>
 
 <script>
-import Counter from './Counter.vue'
-const components = { Counter }
+import Tools from '../../components/Tools.vue'
+import Hero from '../../components/Hero.vue'
+const components = { Tools, Hero }
 export default { components }
 </script>
